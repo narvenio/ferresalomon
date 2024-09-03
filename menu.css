@@ -1,0 +1,332 @@
+
+body {
+    
+    
+    background-color:rgb(255, 255, 255);
+    text-decoration-color: azure;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo img{
+     
+    max-width: 50px;
+    
+   
+}
+
+
+
+.header {
+    
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+}
+
+.img-logo{
+    max-width: 50px;
+    width: 100%;
+
+}
+
+.navegacion {
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30%;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+
+.navegacion li{
+    margin-top: 0px;
+}
+
+
+.titulo-1 {
+
+    color: aliceblue;
+    font-weight: 700;
+    }
+
+.producto li{
+    list-style: none;
+}
+
+.quienes-somos{
+    list-style: none;
+    
+}
+
+
+
+.imagen1 img{
+    height:  700px; ;
+ 
+    width: 105%;
+    margin-top: -0%;
+    margin-left: -5%;
+    object-fit:initial;
+      
+}
+
+
+
+
+.imagen-quienes img  {
+    margin: 0px;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 15%;
+    background: none;
+}
+
+.titulo-quienes {
+    
+    text-align: center;
+    font-size: 50px; 
+    font-weight: 900;
+    margin-top: -250px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 15%;
+    
+   
+}
+
+.quienes-descripcion {
+    width: 50%;
+    margin-left: 36%;
+    font-size: 18px;
+    
+    
+}
+
+.text-producto{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 60px; 
+    font-weight: 900;
+    margin-top: 20%;
+    display: none;
+}
+
+.text-iluminacion{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 50px; 
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+
+
+.logo-iluminacion img{
+
+    height: 130px;
+    width: 10%;
+    float: right;
+    margin-top: -11%;
+    margin-right: 30%;
+}
+
+.producto-pantalla img {
+
+    margin: 0px;
+    width: 420px;   
+    height: 550px;
+    background: none;
+    margin-top: 0%;
+    margin-left: 55%;
+    transition:  1s; 
+   
+}
+
+.producto-pantalla img:hover{
+    scale: 1.07;
+}
+
+
+.Titulo-producto {
+   
+    background-color: rgba(238, 234, 234, 0.411);
+    /*-Color:Gris claro esta bonita- background-color: rgba(238, 234, 234, 0.411);*/
+    /*-color: rojito claro esta bonita pero es algo brillante, molesta un poco- background-color: rgba(254, 229, 223, 0.411);*/
+    margin-top: 11%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.titulo {
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -30%;
+    margin-right: 30%;
+}
+
+.titulo-debajo{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 32%;
+    color: black;
+    font-size: 20px;
+    margin-top: -2%;
+    
+}
+
+.descripcion-producto{
+    font-family: 'Varela Round', sans-serif;
+    width: 45%;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.carousel-caption{
+
+   
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.servicio-tecnico{
+    background-color: rgba(238, 234, 234, 0.411);
+    padding-bottom: 10%;
+}
+
+
+.servicio-tecnico img {
+    margin-top: 8%;
+    width: 320px;
+    margin-left: 12%;
+    height: 400px;
+    
+}
+
+.titulo-servicio{
+    float: right;
+    align-items: center;
+    margin-top: -30%;
+    margin-right: 27%;
+    
+}
+
+.descripcion-servicio-tecnico{
+    float: right;
+    align-items: center;
+    margin-top: -22%;
+    margin-right: 15%;
+    
+}
+
+.logos{
+    display: inline-block;
+    list-style: none;
+    margin-left: 270px;
+    
+}
+
+.logos-imagen img{
+    
+    height: 10px; 
+       
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    max-width: 33%;
+    min-width: 30%;
+    margin-left: 24%;
+    margin-top: 15%;
+}
+
+.luz{
+    height: 80px;
+}
+.pez{
+    height: 90px;
+    margin-left: 100px;
+}
+
+.plomeria{
+    height: 90px;
+    margin-left: 100px;
+}
+
+.bombillos li{
+   display: inline-block;
+   padding: 23px;
+   list-style: none;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .tomacorriente-enchufes-interruptor li{
+   display: inline-block;
+   padding: 36px;
+   list-style: none;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ 
+.bombillos,.bombas-agua,.tomacorriente-enchufes-interruptor img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.tomacorriente-enchufes-interruptor :hover{
+    scale: 1.05;
+}
+
+.bombillos :hover{
+    scale: 1.05;
+}
+
+.bombas-agua li{
+   display: inline-block;
+   padding: 40px;
+   list-style: none;
+   font-family: 'Raleway', sans-serif;
+}
+
+.bombas-agua img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.bombas-agua :hover{
+    scale: 1.05;
+}
+
